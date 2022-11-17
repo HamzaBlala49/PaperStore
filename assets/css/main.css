@@ -1,0 +1,171 @@
+:root{
+    /* --color:black */
+}
+*{box-sizing: border-box; }
+::selection{
+    color: white;
+    background-color: #006778;
+}
+body{
+    padding: 0;
+    margin: 0;
+    /* font-family: Cairo-font; */
+}
+/* @font-face {
+    font-family:Cairo-font;
+    src: url(../font/Cairo-VariableFont_slnt\,wght.ttf);
+} */
+.color1{
+    color: #006778;
+}
+.bg-color1{
+    background-color: #006778;
+}
+/* Start Navbar */
+.navbar{
+    box-shadow: 1px 2px 5px 1px #eee;
+}
+.navbar-brand h4{
+    color: #006778;
+}
+/* End Navbar */
+
+/* Start Sectio 1 */
+.section1{
+    background-image: url(../img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 91vh;
+    display: flex;
+    align-items: center;
+    /* filter: blur(0px); */
+}
+.heiro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 10px;
+}
+.logo{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border: 3px solid#006778;
+    border-radius: 50%;
+}
+.logo img{
+    width: 100%;
+    object-fit: cover;
+    /* background-color: black; */
+}
+.hello{
+    position: absolute;
+    top: 10px;
+    left: 40px;
+
+}
+.hello .circl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    background-color: rgb(248, 248, 248);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+     box-shadow:-2px 1px 9px 0px #eee;
+}
+.hello .circl img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    /* animation: hello 2s linear infinite ; */
+    /* transform: rotate(45deg); */
+    /* transform-origin: center center; */
+
+}
+
+@keyframes hello {
+    0%{
+        transform: rotate(0deg);
+    }
+    40%{
+        transform: rotate(-30deg);
+    }
+    
+    80%{
+        transform: rotate(20deg);
+    }
+    
+    100%{
+        transform: rotate(0deg);
+    }
+
+}
+
+.midea-icon{
+    margin-left: 10px;
+    font-size: 40px;
+    background-color: white;
+    padding:8px;
+    border-radius: 10px;
+    color: #006778;
+    transition: .3s;
+    cursor: pointer;
+}
+.midea-icon:hover{
+    background-color: #006778;
+    color: white;
+}
+.arrow-down{
+    margin-top: 40px;
+    cursor: pointer;
+}
+.arrow-down i{
+    font-size: 30px;
+    color: #006778;
+}
+
+/* End Sectio 1 */
+/* Start Section 2 */
+.head-card{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.head-card i {
+    font-size: 30px;
+    color: #006778;
+}
+/*  End Section 2 */
+/* Start Section 3  */
+.section3{
+    background-color: #fafafa;
+}
+.benefit .benefit-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+/* End Section 3 */
+
+/* Start Section 4 */
+.cover-img{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: .5s;
+}
+.cover-img img{
+    width:100%;
+    height: 100%;
+    object-fit: fill;
+}
+/* End Section 4 */
