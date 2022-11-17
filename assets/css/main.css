@@ -147,6 +147,9 @@ body{
 .section3{
     background-color: #fafafa;
 }
+.benefit{
+    overflow: hidden;
+}
 .benefit .benefit-img img{
     width: 100%;
     height: 300px;
